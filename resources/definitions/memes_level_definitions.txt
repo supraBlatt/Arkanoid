@@ -1,0 +1,66 @@
+# Klik level 1
+START_LEVEL
+level_name:Tavi klik adom
+ball_velocities:45,550 -45,550 -30,550 30,550
+background:image(background_images/reddo.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/klik_block_definitions .txt
+blocks_start_x:37
+blocks_start_y:60
+row_height:60
+num_blocks:26
+START_BLOCKS
+========k
+kkkkk=k=kkkk=kkkkk
+====k=k====k=====k
+=k==k=====k===k==k
+=k=k=====k====k=k
+=k============k
+END_BLOCKS
+END_LEVEL
+
+#Level 2 shrek
+START_LEVEL
+level_name:Get out of my swapm
+ball_velocities:45,550 -45,550 -30,550 30,550
+background:image(background_images/swamp.png)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/shrek_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:50
+num_blocks:26
+START_BLOCKS
+*
+***d*ddddd*d
+***ddddddddd
+***d*ddddd*d
+*****ddddd
+*****ddddd
+END_BLOCKS
+END_LEVEL
+
+#Level 3 Pokemon
+START_LEVEL
+level_name:Gotta catch 'em all
+ball_velocities:60,550 -60,550 -70,550 70,550
+background:image(background_images/field.png)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/pokemon_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:45
+num_blocks:26
+START_BLOCKS
+*****gggoggg
+*****g*****g
+*****o*ddd*o
+*****oodddoo
+*****o*ddd*o
+*****g*****g
+*****gggoggg
+END_BLOCKS
+END_LEVEL

@@ -1,0 +1,10 @@
+# default values for blocks
+default height:45 width:45
+
+# block definitions
+bdef symbol:d hit_points:5 fill:image(block_images/ray.jpg) 
+bdef symbol:o hit_points:2 fill:image(block_images/rayNormal.png)
+bdef symbol:g hit_points:2 fill:image(block_images/groudon.png)
+
+# spacers definitions
+sdef symbol:* width:45

@@ -1,0 +1,7 @@
+# default values for blocks
+default height:60 width:40 stroke:color(red)
+# block definitions
+bdef symbol:k hit_points:3 fill-3:image(block_images/redKlik.jpg) fill-2:image(block_images/brownKlik.jpg) fill:image(block_images/yellowKlik.jpg)
+
+# spacers definitions
+sdef symbol:= width:40

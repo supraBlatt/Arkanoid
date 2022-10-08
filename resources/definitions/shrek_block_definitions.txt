@@ -1,0 +1,8 @@
+# default values for blocks
+default height:50 width:50
+
+# block definitions
+bdef symbol:d hit_points:2 fill:image(block_images/donkey.png) fill-2:image(block_images/shrek.png)
+
+# spacers definitions
+sdef symbol:* width:50
